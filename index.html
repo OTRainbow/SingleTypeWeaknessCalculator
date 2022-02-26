@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon | Single Type Weakness Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/types.css">
+    <link rel="stylesheet" href="css/lists.css">
+</head>
+<body>
+    <div class="container">
+        <div class="types" id="types">
+            <input type="radio" id="normal" name="type_selection" value="normal">
+            <label for="normal">Normal</label>
+
+            <input type="radio" id="fighting" name="type_selection" value="fighting">
+            <label for="fighting">Fighting</label>
+
+            <input type="radio" id="flying" name="type_selection" value="flying">
+            <label for="flying">Flying</label>
+
+            <input type="radio" id="poison" name="type_selection" value="poison">
+            <label for="poison">Poison</label>
+
+            <input type="radio" id="ground" name="type_selection" value="ground">
+            <label for="ground">Ground</label>
+
+            <input type="radio" id="rock" name="type_selection" value="rock">
+            <label for="rock">Rock</label>
+
+            <input type="radio" id="bug" name="type_selection" value="bug">
+            <label for="bug">Bug</label>
+
+            <input type="radio" id="ghost" name="type_selection" value="ghost">
+            <label for="ghost">Ghost</label>
+
+            <input type="radio" id="steel" name="type_selection" value="steel">
+            <label for="steel">Steel</label>
+
+            <input type="radio" id="fire" name="type_selection" value="fire">
+            <label for="fire">Fire</label>
+
+            <input type="radio" id="water" name="type_selection" value="water">
+            <label for="water">Water</label>
+
+            <input type="radio" id="grass" name="type_selection" value="grass">
+            <label for="grass">Grass</label>
+
+            <input type="radio" id="electric" name="type_selection" value="electric">
+            <label for="electric">Electric</label>
+
+            <input type="radio" id="psychic" name="type_selection" value="psychic">
+            <label for="psychic">Psychic</label>
+
+            <input type="radio" id="ice" name="type_selection" value="ice">
+            <label for="ice">Ice</label>
+
+            <input type="radio" id="dragon" name="type_selection" value="dragon">
+            <label for="dragon">Dragon</label>
+
+            <input type="radio" id="dark" name="type_selection" value="dark">
+            <label for="dark">Dark</label>
+
+            <input type="radio" id="fairy" name="type_selection" value="fairy">
+            <label for="fairy">Fairy</label>
+        </div>
+
+        <div class="damage-relations">
+            <div class="weak">
+                Weak To
+                <br>
+                ------------
+                <ul id="weak_list">
+                    
+                </ul>
+            </div>
+            <div class="resistant">
+                Resistant To
+                <br>
+                ---------------
+                <ul id="resistant_list">
+
+                </ul>
+            </div>
+            <div class="immune">
+                Immune To
+                <br>
+                --------------
+                <ul id="immune_list">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
